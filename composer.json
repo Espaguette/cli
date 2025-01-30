@@ -1,0 +1,24 @@
+{
+    "name": "espaguette/cli",
+    "description": "A CLI tool to execute commands based on a JSON configuration.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Espaguette\\Cli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julyano Silva",
+            "email": "julyano@jbrsolutions.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/console": "^7.2"
+    },
+    "bin": [
+        "bin/espaguette"
+    ]
+}

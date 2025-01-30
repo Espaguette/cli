@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use Espaguette\Cli\Cli;
+use Symfony\Component\Console\Application;
+
+$application = new Application('Espaguette CLI', '1.0.0');
+$application->add(new Cli());
+$application->setDefaultCommand('espaguette', true); // Set default command
+$application->run();
