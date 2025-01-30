@@ -25,7 +25,7 @@ composer global require espaguette/cli
 2. Certifique-se de que o diretório global bin está no seu `PATH`. Para adicioná-lo, inclua no seu `.bashrc`, `.zshrc` ou `.bash_profile`:
 
 ```bash
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 ```
 
 3. Recarregue o seu ambiente:
